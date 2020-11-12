@@ -1,0 +1,38 @@
+{
+  "name": "action-lint-pull-request-title",
+  "version": "0.0.1",
+  "description": "Ensure your PR title matches the commit lint spec.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "jest src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:dreampulse/action-lint-pull-request-title.git"
+  },
+  "keywords": [
+    "github-action",
+    "commitlint"
+  ],
+  "author": "Jonathan Häberle <jonathan.haeberle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dreampulse/action-lint-pull-request-title/issues"
+  },
+  "homepage": "https://github.com/dreampulse/action-lint-pull-request-title#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^1.1.0",
+    "@commitlint/lint": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "7.9.0",
+    "eslint-config-molindo": "5.0.1",
+    "jest": "24.9.0",
+    "semantic-release": "17.1.1"
+  },
+  "engines": {
+    "node": "^12.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+name: action-lint-pull-request-title
+author: Jonathan Häberle <jonathan.haeberle@gmail.com>
+description: Ensure your PR title matches the requirements in the commitlint config.
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  icon: 'shield'
+  color: 'green'
