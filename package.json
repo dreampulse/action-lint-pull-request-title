@@ -27,7 +27,7 @@
     "@commitlint/lint": "^11.0.0"
   },
   "devDependencies": {
-    "eslint": "7.9.0",
+    "eslint": "7.13.0",
     "eslint-config-molindo": "5.0.1",
     "jest": "24.9.0",
     "semantic-release": "17.1.1"
